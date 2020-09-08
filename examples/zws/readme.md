@@ -31,6 +31,10 @@ emsdk_env.bat
         }
     ]
 
+# Javascript debug
+http://localhost/wasm/examples/zws/logis*.html
+按键F12
+
 # 运行 emcc
 cd emsdk
 emcmdprompt.bat

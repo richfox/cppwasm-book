@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Emscripten: logis tokenizer</title>
+  </head>
+  <body>
+	<script>
+		var Module = 
+		{
+		  onRuntimeInitialized: function() 
+		  {
+			var tokens = Module.run_logis_tokenizer('  ');
+			console.log(tokens.size());
+			
+			tokens = Module.run_logis_tokenizer('%A(1)');
+			console.log(tokens.size());
+		  }
+		};
+	</script>
+	<script src="LogisTokenizer.js"></script>
+  </body>
+</html>
