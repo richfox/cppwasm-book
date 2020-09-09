@@ -1,8 +1,5 @@
 # windows下安装emsdk
-fork https://github.com/emscripten-core/emsdk.git
-
-# Get the emsdk repo
-git clone https://github.com/.../emsdk.git
+git clone https://github.com/emscripten-core/emsdk.git
 # Enter that directory
 cd emsdk
 
