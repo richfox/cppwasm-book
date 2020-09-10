@@ -33,6 +33,6 @@ http://localhost/wasm/examples/zws/logis*.html
 按键F12
 
 # 运行 emcc
-cd emsdk
 emcmdprompt.bat
-emcc cppwasm-book\examples\zws\logis*.cpp -o temp\logis*.js --bind
+cd emsdk\cppwasm-book\examples\zws
+emcc logis*.cpp -o logis*.js --bind

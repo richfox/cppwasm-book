@@ -35,7 +35,7 @@ a.out
 # wasm
 *.wasm
 *.wasm2wat.txt
-
+*.js
 *.map
 
 book.pdf

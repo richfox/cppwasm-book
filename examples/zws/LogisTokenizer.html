@@ -15,6 +15,7 @@
 			console.log(tokens.size());
 			
 			tokens = Module.run_logis_tokenizer('%A(1)');
+			assert(tokens.get(3)==')','error');
 			console.log(tokens.size());
 		  }
 		};
